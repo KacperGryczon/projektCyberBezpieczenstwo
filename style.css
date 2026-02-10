@@ -43,6 +43,7 @@
 #nav ul {
   display: flex;
   gap: 1em;
+  list-style-type: none;
 }
 
 #nav ul li a {
@@ -420,3 +421,4 @@
     display: none;
   }
 }
+
