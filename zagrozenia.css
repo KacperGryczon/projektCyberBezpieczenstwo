@@ -1,0 +1,85 @@
+#cards {
+  padding-inline: 5%;
+  background-color: #0a0a1a;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 24px;
+  width: 100%;
+  padding: 24px;
+  box-sizing: border-box;
+}
+
+.threat-card {
+  background: #0b1020;
+  border-radius: 16px;
+  padding-inline: 24px;
+  padding-block: 40px;
+
+  display: flex;
+  flex-direction: column;
+
+  position: relative;
+  background: radial-gradient(120% 120% at top left, #0b1026, #050712);
+  border: 1px solid rgba(0, 212, 255, 0.35);
+  box-shadow: 0 0 40px rgba(0, 212, 255, 0.15);
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon {
+  color: #22d3ee;
+}
+
+.level {
+  color: #ff3b3b;
+  font-weight: 600;
+  font-size: 0.85rem;
+}
+
+.threat-card h3 {
+  margin: 16px 0 8px;
+  color: #22d3ee;
+  font-size: 1.5rem;
+}
+
+.desc {
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: #9aa4ff;
+}
+
+.threat-card h4 {
+  margin-top: 18px;
+  margin-bottom: 6px;
+  color: #e5e7ff;
+  font-size: 0.95rem;
+}
+
+.threat-card ul {
+  padding-left: 16px;
+  font-size: 0.85rem;
+  color: #9aa4ff;
+}
+
+.threat-card li {
+  margin-bottom: 6px;
+}
+
+.divider {
+  margin: 18px 0;
+  height: 1px;
+  background: linear-gradient(to right, transparent, #22d3ee, transparent);
+}
+
+.protect-title {
+  color: #22d3ee;
+}
+
+.protect {
+  font-size: 0.85rem;
+  color: #b5c0ff;
+}

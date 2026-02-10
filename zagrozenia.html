@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyber bezpieczeństwo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="zagrozenia.css">
+    <script src="script.js" defer></script>
+    <script src="https://kit.fontawesome.com/1017934682.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="nav">
+        <a class="logo" href="index.html">
+            <i class="fa-solid fa-shield"></i>
+            <h2>Cyber Security</h2>
+        </a>
+        <i class="fa-solid fa-bars nav-i" id="nav-i"></i>
+        <ul id="navList">
+            <li><i class="fa-solid fa-x nav-ul-i" id="nav-ul-i"></i></li>
+            <li><a href="index.html">Strona Główna</a></li>
+            <li><a href="testWiedzy.html">Test Wiedzy</a></li>
+            <li><a class="active" href="zagrozenia.html">Zagrożenia</a></li>
+            <li><a href="zasadyBezpieczenstwa.html">Zasady Bezpieczeństwa</a></li>
+            <li><a href="slownik.html">Słownik</a></li>
+            <li><a href="narzedzia.html">Narzędzia</a></li>
+        </ul>
+    </div>
+    <div id="hero">
+        <h1>Zagrożenia w Sieci</h1>
+        <p>Poznaj najczęstsze zagrożenia cybernetyczne i dowiedz się, jak się przed nimi chronić</p>
+    </div>
+    <div id="cards">
+        <div class="threat-card">
+  <div class="card-header">
+    <div class="icon">
+      <svg width="32" height="32" viewBox="0 0 24 24" fill="none">
+        <path d="M4 6h16v12H4z" stroke="currentColor" stroke-width="2"/>
+        <path d="M4 6l8 6 8-6" stroke="currentColor" stroke-width="2"/>
+      </svg>
+    </div>
+    <span class="level">Wysokie</span>
+  </div>
+
+  <h3>Phishing</h3>
+
+  <p class="desc">
+    Ataki polegające na podszywaniu się pod zaufane instytucje
+    w celu wykradzenia danych.
+  </p>
+
+  <h4>Przykłady:</h4>
+  <ul>
+    <li>E-maile wyglądające jak oficjalna korespondencja</li>
+    <li>Fałszywe strony internetowe imitujące prawdziwe serwisy</li>
+    <li>SMS-y z prośbą o kliknięcie w link</li>
+    <li>Wiadomości w mediach społecznościowych</li>
+  </ul>
+
+  <div class="divider"></div>
+
+  <h4 class="protect-title">Jak się chronić:</h4>
+  <p class="protect">
+    Zawsze sprawdzaj adres nadawcy i URL strony.
+    Nie klikaj w podejrzane linki.
+  </p>
+</div>
+<div class="threat-card">
+  <div class="card-header">
+    <div class="icon">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-bug-icon lucide-bug"><path d="M12 20v-9"/><path d="M14 7a4 4 0 0 1 4 4v3a6 6 0 0 1-12 0v-3a4 4 0 0 1 4-4z"/><path d="M14.12 3.88 16 2"/><path d="M21 21a4 4 0 0 0-3.81-4"/><path d="M21 5a4 4 0 0 1-3.55 3.97"/><path d="M22 13h-4"/><path d="M3 21a4 4 0 0 1 3.81-4"/><path d="M3 5a4 4 0 0 0 3.55 3.97"/><path d="M6 13H2"/><path d="m8 2 1.88 1.88"/><path d="M9 7.13V6a3 3 0 1 1 6 0v1.13"/></svg>
+    </div>
+    <span class="level">Krytyczne</span>
+  </div>
+
+  <h3>Malware</h3>
+
+  <p class="desc">
+    Złośliwe oprogramowanie zaprojektowane do uszkodzenia systemu lub kradzieży danych.
+  </p>
+
+  <h4>Przykłady:</h4>
+  <ul>
+    <li>Wirusy komputerowe</li>
+    <li>Trojany</li>
+    <li>Spyware (oprogramowanie szpiegujące)</li>
+    <li>Adware (niechciane reklamy)</li>
+  </ul>
+
+  <div class="divider"></div>
+
+  <h4 class="protect-title">Jak się chronić:</h4>
+  <p class="protect">
+    Używaj aktualnego antywirusa i nie pobieraj plików z niezaufanych źródeł.
+  </p>
+</div>
+<div class="threat-card">
+  <div class="card-header">
+    <div class="icon">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-lock-icon lucide-lock"><rect width="18" height="11" x="3" y="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+    </div>
+    <span class="level">Krytyczne</span>
+  </div>
+
+  <h3>Ransomware</h3>
+
+  <p class="desc">
+    Oprogramowanie szyfrujące dane użytkownika i żądające okupu za ich odblokowanie.
+  </p>
+
+  <h4>Przykłady:</h4>
+  <ul>
+    <li>Szyfrowanie plików na dysku</li>
+    <li>Żądanie okupu w kryptowalutach</li>
+    <li>Rozprzestrzenianie się przez sieć</li>
+    <li>Blokowanie dostępu do systemu</li>
+  </ul>
+
+  <div class="divider"></div>
+
+  <h4 class="protect-title">Jak się chronić:</h4>
+  <p class="protect">
+    Regularnie twórz kopie zapasowe danych i nie otwieraj podejrzanych załączników.
+  </p>
+</div>
+<div class="threat-card">
+  <div class="card-header">
+    <div class="icon">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-credit-card-icon lucide-credit-card"><rect width="20" height="14" x="2" y="5" rx="2"/><line x1="2" x2="22" y1="10" y2="10"/></svg>
+    </div>
+    <span class="level">Wysokie</span>
+  </div>
+
+  <h3>Kradzież Tożsamości</h3>
+
+  <p class="desc">
+    Nieuprawnione wykorzystanie danych osobowych do oszustw finansowych.
+  </p>
+
+  <h4>Przykłady:</h4>
+  <ul>
+    <li>Kradzież danych karty kredytowej</li>
+    <li>Wykorzystanie PESEL i dokumentów</li>
+    <li>Założenie konta na cudze dane</li>
+    <li>Zaciąganie kredytów na cudzą tożsamość</li>
+  </ul>
+
+  <div class="divider"></div>
+
+  <h4 class="protect-title">Jak się chronić:</h4>
+  <p class="protect">
+    Chroń swoje dane osobowe i regularnie monitoruj historię transakcji bankowych.
+  </p>
+</div>
+<div class="threat-card">
+  <div class="card-header">
+    <div class="icon">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-user-lock-icon lucide-user-lock"><path d="M19 16v-2a2 2 0 0 0-4 0v2"/><path d="M9.5 15H7a4 4 0 0 0-4 4v2"/><circle cx="10" cy="7" r="4"/><rect x="13" y="16" width="8" height="5" rx=".899"/></svg>
+    </div>
+    <span class="level">Wysokie</span>
+  </div>
+
+  <h3>Social Engineering</h3>
+
+  <p class="desc">
+    Manipulacja psychologiczna mająca na celu wyłudzenie poufnych informacji.
+  </p>
+
+  <h4>Przykłady:</h4>
+  <ul>
+    <li>Pretexting (podszywanie się)</li>
+    <li>Baiting (przynęta)</li>
+    <li>Quid pro quo (coś za coś)</li>
+    <li>Tailgating (podążanie)</li>
+  </ul>
+
+  <div class="divider"></div>
+
+  <h4 class="protect-title">Jak się chronić:</h4>
+  <p class="protect">
+    Bądź sceptyczny wobec niespodziewanych próśb o informacje, nawet jeśli wyglądają legalnie.
+  </p>
+</div>
+<div class="threat-card">
+  <div class="card-header">
+    <div class="icon">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-wifi-icon lucide-wifi"><path d="M12 20h.01"/><path d="M2 8.82a15 15 0 0 1 20 0"/><path d="M5 12.859a10 10 0 0 1 14 0"/><path d="M8.5 16.429a5 5 0 0 1 7 0"/></svg>
+    </div>
+    <span class="level">Średnie</span>
+  </div>
+
+  <h3>Ataki Man-in-the-Middle</h3>
+
+  <p class="desc">
+    Przechwytywanie komunikacji między dwoma stronami bez ich wiedzy.
+  </p>
+
+  <h4>Przykłady:</h4>
+  <ul>
+    <li>Podsłuchiwanie publicznych sieci Wi-Fi</li>
+    <li>Przechwytywanie danych logowania</li>
+    <li>Modyfikacja przesyłanych danych</li>
+    <li>Session hijacking</li>
+  </ul>
+
+  <div class="divider"></div>
+
+  <h4 class="protect-title">Jak się chronić:</h4>
+  <p class="protect">
+    Używaj VPN w publicznych sieciach i zawsze sprawdzaj czy połączenie jest szyfrowane (HTTPS).
+  </p>
+</div>
+<div class="threat-card">
+  <div class="card-header">
+    <div class="icon">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-database-icon lucide-database"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5V19A9 3 0 0 0 21 19V5"/><path d="M3 12A9 3 0 0 0 21 12"/></svg>
+    </div>
+    <span class="level">Wysokie</span>
+  </div>
+
+  <h3>SQL Injection</h3>
+
+  <p class="desc">
+    Atak na bazę danych poprzez wstrzykiwanie złośliwego kodu SQL.
+  </p>
+
+  <h4>Przykłady:</h4>
+  <ul>
+    <li>Wstrzykiwanie kodu przez formularze</li>
+    <li>Obejście mechanizmów logowania</li>
+    <li>Kradzież danych z bazy</li>
+    <li>Modyfikacja lub usunięcie danych</li>
+  </ul>
+
+  <div class="divider"></div>
+
+  <h4 class="protect-title">Jak się chronić:</h4>
+  <p class="protect">
+    Dla właścicieli stron: walidacja danych wejściowych i używanie prepared statements.
+  </p>
+</div>
+<div class="threat-card">
+  <div class="card-header">
+    <div class="icon">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield-icon lucide-shield"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/></svg>
+    </div>
+    <span class="level">Średnie</span>
+  </div>
+
+  <h3>Ataki DDoS</h3>
+
+  <p class="desc">
+    Przeciążenie serwera ogromną liczbą żądań, powodujące jego niedostępność.
+  </p>
+
+  <h4>Przykłady:</h4>
+  <ul>
+    <li>Wykorzystanie botnetów</li>
+    <li>Przeciążenie przepustowości</li>
+    <li>Atak na warstwy aplikacji</li>
+    <li>Ataki amplifikacyjne</li>
+  </ul>
+
+  <div class="divider"></div>
+
+  <h4 class="protect-title">Jak się chronić:</h4>
+  <p class="protect">
+    Dla właścicieli stron: używanie usług CDN i systemów ochrony przed DDoS.
+  </p>
+</div>
+<div class="threat-card">
+  <div class="card-header">
+    <div class="icon">
+      <svg width="32" height="32" viewBox="0 0 24 24" fill="none">
+        <path d="M4 6h16v12H4z" stroke="currentColor" stroke-width="2"/>
+        <path d="M4 6l8 6 8-6" stroke="currentColor" stroke-width="2"/>
+      </svg>
+    </div>
+    <span class="level">Krytyczne</span>
+  </div>
+
+  <h3>Zero-day Exploits</h3>
+
+  <p class="desc">
+    Wykorzystanie nieznanych wcześniej luk w oprogramowaniu.
+  </p>
+
+  <h4>Przykłady:</h4>
+  <ul>
+    <li>Ataki na niezałatane luki</li>
+    <li>Brak znanej ochrony</li>
+    <li>Często wykorzystywane w atakach celowanych</li>
+    <li>Trudne do wykrycia</li>
+  </ul>
+
+  <div class="divider"></div>
+
+  <h4 class="protect-title">Jak się chronić:</h4>
+  <p class="protect">
+    Regularnie aktualizuj oprogramowanie i używaj wielowarstwowej ochrony.
+  </p>
+</div>
+    </div>
+    <div id="footer">
+        <div class="info">
+            <div class="autor">
+                <i class="fa-solid fa-shield"></i>
+                <h2>Cyber Bezpieczeństwo</h2>
+            </div>
+            <p>Platforma edukacyjna poświęcona bezpieczeństwu w sieci. Naszym celem jest zwiększenie świadomości na temat zagrożeń cybernetycznych. <br> Autor: Kacper Gryczon</p>
+        </div>
+        <div class="szybkieLinki">
+            <h2>Szybkie Linki</h2>
+            <ul>
+                <li><a href="index.html">Strona Główna</a></li>
+                <li><a href="testWiedzy.html">Test Wiedzy</a></li>
+                <li><a href="zagrozenia.html">Zagrożenia</a></li>
+                <li><a href="zasadyBezpieczenstwa.html">Zasady Bezpieczeństwa</a></li>
+                <li><a href="slownik.html">Słownik</a></li>
+                <li><a href="narzedzia.html">Narzędzia</a></li>
+        </div>
+    </div>
+</body>
+</html>

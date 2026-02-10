@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyber bezpieczeństwo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="slownik.css">
+    <script src="script.js" defer></script>
+    <script src="https://kit.fontawesome.com/1017934682.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   <div id="nav">
+        <a class="logo" href="index.html">
+            <i class="fa-solid fa-shield"></i>
+            <h2>Cyber Security</h2>
+        </a>
+        <i class="fa-solid fa-bars nav-i" id="nav-i"></i>
+        <ul id="navList">
+            <li><i class="fa-solid fa-x nav-ul-i" id="nav-ul-i"></i></li>
+            <li><a href="index.html">Strona Główna</a></li>
+            <li><a href="testWiedzy.html">Test Wiedzy</a></li>
+            <li><a href="zagrozenia.html">Zagrożenia</a></li>
+            <li><a href="zasadyBezpieczenstwa.html">Zasady Bezpieczeństwa</a></li>
+            <li><a class="active" href="slownik.html">Słownik</a></li>
+            <li><a href="narzedzia.html">Narzędzia</a></li>
+        </ul>
+    </div>
+    <div id="hero">
+        <h1>Słownik Terminów</h1>
+        <p>Kluczowe pojęcia i definicje związane z cyberbezpieczeństwem</p>
+        <div class="slownik-search">
+            <input type="text" id="slownikInput" placeholder="Wyszukaj pojęcie...">
+        </div>
+    </div>
+    <section class="slownik">
+
+    <h2 class="slownik-title">Aktualizacje</h2>
+
+    <div class="slownik-grid">
+
+        <div class="slownik-box" data-name="patch latka aktualizacja">
+            <h3 class="slownik-box-title">Patch / Łatka</h3>
+            <p class="slownik-box-desc">
+                Aktualizacja oprogramowania naprawiająca błędy lub luki bezpieczeństwa.
+            </p>
+        </div>
+
+    </div>
+
+
+    <h2 class="slownik-title">Ataki</h2>
+
+    <div class="slownik-grid">
+
+        <div class="slownik-box" data-name="brute force atak brute">
+            <h3 class="slownik-box-title">Brute Force</h3>
+            <p class="slownik-box-desc">
+                Metoda ataku polegająca na wypróbowywaniu wszystkich możliwych kombinacji hasła aż do znalezienia właściwej.
+            </p>
+        </div>
+
+        <div class="slownik-box" data-name="ddos distributed denial of service">
+            <h3 class="slownik-box-title">DDoS (Distributed Denial of Service)</h3>
+            <p class="slownik-box-desc">
+                Atak przeciążający serwer lub sieć ogromną liczbą żądań z wielu źródeł, powodujący jego niedostępność.
+            </p>
+        </div>
+
+        <div class="slownik-box" data-name="social engineering socjotechnika">
+            <h3 class="slownik-box-title">Social Engineering</h3>
+            <p class="slownik-box-desc">
+                Manipulacja psychologiczna mająca na celu skłonienie ofiary do ujawnienia poufnych informacji.
+            </p>
+        </div>
+
+        <div class="slownik-box" data-name="sql injection wstrzykiwanie sql">
+            <h3 class="slownik-box-title">SQL Injection</h3>
+            <p class="slownik-box-desc">
+                Atak polegający na wstrzykiwaniu złośliwego kodu SQL do bazy danych przez niezabezpieczone formularze.
+            </p>
+        </div>
+
+        <div class="slownik-box" data-name="whaling atak na vip ceo cfo">
+            <h3 class="slownik-box-title">Whaling</h3>
+            <p class="slownik-box-desc">
+                Celowany atak phishingowy skierowany na ważne osoby w organizacji (CEO, CFO).
+            </p>
+        </div>
+
+    </div>
+
+    <h2 class="slownik-title">Autentykacja</h2>
+
+    <div class="slownik-grid">
+
+        <div class="slownik-box" data-name="2fa uwierzytelnianie dwuskładnikowe">
+            <h3 class="slownik-box-title">2FA / Uwierzytelnianie Dwuskładnikowe</h3>
+            <p class="slownik-box-desc">
+                Metoda zabezpieczenia wymagająca dwóch różnych sposobów potwierdzenia tożsamości (np. hasło + kod SMS).
+            </p>
+        </div>
+
+        <div class="slownik-box" data-name="mfa multi factor authentication wieloskładnikowe">
+            <h3 class="slownik-box-title">MFA (Multi-Factor Authentication)</h3>
+            <p class="slownik-box-desc">
+                Wieloskładnikowe uwierzytelnianie używające trzech lub więcej metod weryfikacji tożsamości.
+            </p>
+        </div>
+
+    </div>
+
+
+    <h2 class="slownik-title">Kryptografia</h2>
+
+    <div class="slownik-grid">
+
+        <div class="slownik-box" data-name="encryption szyfrowanie">
+            <h3 class="slownik-box-title">Encryption / Szyfrowanie</h3>
+            <p class="slownik-box-desc">
+                Proces przekształcania danych w formę nieczytelną bez odpowiedniego klucza deszyfrującego.
+            </p>
+        </div>
+
+    </div>
+
+
+    <h2 class="slownik-title">Luki</h2>
+
+    <div class="slownik-grid">
+
+        <div class="slownik-box" data-name="zero day zeroday luka 0day">
+            <h3 class="slownik-box-title">Zero-day</h3>
+            <p class="slownik-box-desc">
+                Luka w oprogramowaniu, która jest nieznana producentowi i nie ma dla niej jeszcze łatki bezpieczeństwa.
+            </p>
+        </div>
+
+    </div>
+
+
+    <h2 class="slownik-title">Narzędzia</h2>
+
+    <div class="slownik-grid">
+
+        <div class="slownik-box" data-name="vpn virtual private network narzedzia">
+            <h3 class="slownik-box-title">VPN (Virtual Private Network)</h3>
+            <p class="slownik-box-desc">
+                Sieć prywatna tworząca szyfrowane połączenie przez publiczną sieć Internet, chroniąca prywatność użytkownika.
+            </p>
+        </div>
+
+    </div>
+
+
+    <h2 class="slownik-title">Oprogramowanie</h2>
+
+    <div class="slownik-grid">
+
+        <div class="slownik-box" data-name="antywirus antivirus oprogramowanie">
+            <h3 class="slownik-box-title">Antywirus</h3>
+            <p class="slownik-box-desc">
+                Oprogramowanie zaprojektowane do wykrywania, blokowania i usuwania złośliwego oprogramowania z komputera.
+            </p>
+        </div>
+
+        <div class="slownik-box" data-name="firewall zapora ogniowa oprogramowanie">
+            <h3 class="slownik-box-title">Firewall / Zapora Ogniowa</h3>
+            <p class="slownik-box-desc">
+                System bezpieczeństwa monitorujący i kontrolujący ruch sieciowy zgodnie z ustalonymi regułami.
+            </p>
+        </div>
+
+    </div>
+
+
+    <h2 class="slownik-title">Protokoły</h2>
+
+    <div class="slownik-grid">
+
+        <div class="slownik-box" data-name="https protokol szyfrowanie">
+            <h3 class="slownik-box-title">HTTPS</h3>
+            <p class="slownik-box-desc">
+                Protokół komunikacji internetowej zapewniający szyfrowane połączenie między przeglądarką a serwerem.
+            </p>
+        </div>
+
+        <div class="slownik-box" data-name="ssl tls protokoly szyfrowanie">
+            <h3 class="slownik-box-title">SSL / TLS</h3>
+            <p class="slownik-box-desc">
+                Protokoły kryptograficzne zapewniające bezpieczną komunikację w sieci komputerowej.
+            </p>
+        </div>
+
+    </div>
+
+
+
+</section>
+
+    <div id="footer">
+        <div class="info">
+            <div class="autor">
+                <i class="fa-solid fa-shield"></i>
+                <h2>Cyber Bezpieczeństwo</h2>
+            </div>
+            <p>Platforma edukacyjna poświęcona bezpieczeństwu w sieci. Naszym celem jest zwiększenie świadomości na temat zagrożeń cybernetycznych. <br> Autor: Kacper Gryczon</p>
+        </div>
+        <div class="szybkieLinki">
+            <h2>Szybkie Linki</h2>
+            <ul>
+                <li><a href="index.html">Strona Główna</a></li>
+                <li><a href="testWiedzy.html">Test Wiedzy</a></li>
+                <li><a href="zagrozenia.html">Zagrożenia</a></li>
+                <li><a href="zasadyBezpieczenstwa.html">Zasady Bezpieczeństwa</a></li>
+                <li><a href="slownik.html">Słownik</a></li>
+                <li><a href="narzedzia.html">Narzędzia</a></li>
+        </div>
+    </div>
+</body>
+</html>

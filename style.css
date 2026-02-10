@@ -1,0 +1,422 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Rajdhani:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#nav {
+  background-color: #0a0a1a;
+  display: flex;
+  padding-inline: 5%;
+  padding-block: 30px;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+#nav .logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  font-size: 1.3rem;
+  color: #00d4ff;
+}
+
+#nav .logo h2 {
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+#nav i {
+  font-size: 1.5rem;
+}
+
+#nav ul {
+  display: flex;
+  gap: 1em;
+}
+
+#nav ul li a {
+  text-decoration: none;
+  color: #e0e7ff;
+  font-size: 1.1rem;
+  transition: all ease 0.3s;
+}
+
+#nav ul li a.active {
+  color: #00d4ff;
+  border-bottom: 2px solid #00d4ff;
+}
+
+#nav ul li a:hover {
+  color: #00d4ff;
+}
+
+#nav .nav-i {
+  display: none;
+}
+
+#nav .nav-ul-i {
+  display: none;
+}
+
+#hero {
+  background:
+    radial-gradient(circle at center, rgba(1, 1, 15, 0.7), rgba(1, 1, 15, 0.8)),
+    url("https://wallpaperaccess.com/full/1673432.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: calc(100vh - 100px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#hero h1 {
+  font-size: 5rem;
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  background: linear-gradient(
+    83deg,
+    rgb(92, 184, 223) 0%,
+    rgb(97, 156, 229) 100%,
+    rgba(181, 181, 170, 1) 55%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+#hero h2 {
+  font-size: 1.5rem;
+  color: #e0e7ff;
+  margin-top: 16px;
+}
+
+#hero p {
+  color: #8b92b8;
+  font-size: 1.1rem;
+  max-width: 600px;
+  text-align: center;
+  margin-bottom: 32px;
+  margin-top: 24px;
+}
+
+#hero .hero-buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.button-left,
+.button-right {
+  padding: 18px 30px;
+  text-decoration: none;
+  color: #e0e7ff;
+  border: 2px solid #00d4ff;
+  border-radius: 8px;
+  transition: all ease 0.3s;
+  text-align: center;
+  transition: all ease 0.3s;
+}
+
+.button-left:hover,
+.button-right:hover {
+  background-color: #00d5ff15;
+}
+
+#eksploruj {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  padding-block: 64px;
+  gap: 32px;
+  padding-inline: 5%;
+  background-color: #0a0a1a;
+}
+
+#eksploruj h2 {
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  color: #00d4ff;
+  font-size: 2rem;
+  text-align: center;
+}
+
+#eksploruj .eksploruj-h3 {
+  color: #00d4ff;
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+#eksploruj .eksploruj-tiles {
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+
+.eksploruj-tiles .tile {
+  flex: 1 1 calc(50% - 24px);
+  min-width: 0;
+  border: 1px solid #e0e7ff;
+  border-radius: 16px;
+  text-decoration: none;
+  transition: all ease 0.5s;
+  overflow: hidden;
+}
+
+.eksploruj-tiles .tile:hover {
+  -webkit-box-shadow: 0px 8px 84px -16px rgba(84, 161, 183, 1);
+  -moz-box-shadow: 0px 8px 84px -16px rgba(84, 161, 183, 1);
+  box-shadow: 0px 8px 84px -16px rgba(84, 161, 183, 1);
+}
+
+.eksploruj-tiles .tile i {
+  transition: all ease 0.3s;
+}
+
+.eksploruj-tiles .tile:hover i {
+  margin-left: 12px;
+}
+
+.tile p {
+  padding-left: 16px;
+  color: #8b92b8;
+  font-size: 1rem;
+}
+
+.tile .zobacz {
+  display: inline-block;
+  margin-block: 16px;
+  text-decoration: none;
+  color: #00d4ff;
+  transition: all ease 0.3s;
+}
+
+#eksploruj .tile-full {
+  flex: 1 1 100%;
+}
+
+.tile h3 {
+  padding: 16px;
+  color: #00d4ff;
+  font-size: 1.3rem;
+}
+
+.eksploruj-tiles .tile img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  transition: all ease 0.3s;
+}
+
+.eksploruj-tiles .tile:hover img {
+  transform: scale(1.1);
+}
+
+#swojaWiedza {
+  padding-inline: 5%;
+  background-color: #040408;
+  padding-block: 64px;
+  text-align: center;
+}
+
+#swojaWiedza .swojaWiedza-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 64px;
+  gap: 32px;
+  background-color: #00d5ff3d;
+  border: 2px solid #00d4ff;
+  border-radius: 16px;
+}
+
+.swojaWiedza-container h2 {
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  color: #00d4ff;
+  font-size: 2rem;
+}
+
+.swojaWiedza-container p {
+  color: #e0e7ff;
+  font-size: 1.1rem;
+  text-align: center;
+  max-width: 600px;
+}
+
+.swojaWiedza-container a {
+  padding: 18px 30px;
+  text-decoration: none;
+  color: #e0e7ff;
+  border: 2px solid #00d4ff;
+  border-radius: 8px;
+  transition: all ease 0.3s;
+}
+
+.swojaWiedza-container a:hover {
+  background-color: #00d5ff15;
+}
+
+#footer {
+  display: flex;
+  background-color: #0a0a1a;
+  border-top: 1px solid #00d4ff;
+  color: #e0e7ff;
+  padding-inline: 5%;
+  padding-block: 48px;
+  gap: 64px;
+}
+
+#footer .info {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+#footer .info .autor {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #00d4ff;
+  margin-bottom: 16px;
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 1.4rem;
+}
+
+#footer .info .autor h2 {
+  font-weight: 600;
+}
+
+#footer .szybkieLinki {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#footer .szybkieLinki h2 {
+  color: #00d4ff;
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+#footer .szybkieLinki ul {
+  list-style-type: none;
+}
+
+#footer .szybkieLinki ul li {
+  margin-bottom: 8px;
+}
+
+#footer .szybkieLinki a {
+  text-decoration: none;
+  color: #e0e7ff;
+  transition: all ease 0.3s;
+}
+
+@media (max-width: 1100px) {
+  .eksploruj-tiles {
+    flex-direction: column;
+  }
+
+  #hero h1 {
+    font-size: 4rem;
+  }
+
+  .tile,
+  .tile-full {
+    flex: 1 1 100%;
+  }
+  .autor i {
+    display: none;
+  }
+}
+
+@media (max-width: 1300px) {
+  #nav ul {
+    display: none;
+  }
+
+  #nav ul.active {
+    display: flex;
+    flex-direction: column;
+    background-color: #0a0a1a;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    padding: 24px;
+  }
+
+  #nav .nav-ul-i {
+    display: block;
+    color: whitesmoke;
+    font-size: 2rem;
+    cursor: pointer;
+    justify-self: end;
+  }
+
+  #nav .nav-i {
+    display: block;
+    color: whitesmoke;
+    font-size: 2rem;
+    cursor: pointer;
+  }
+}
+
+@media (max-width: 750px) {
+  #hero h1 {
+    font-size: 3rem;
+  }
+
+  #footer {
+    flex-direction: column;
+  }
+
+  #footer .info {
+    width: 80%;
+  }
+}
+
+@media (max-width: 600px) {
+  #hero .hero-buttons {
+    flex-direction: column;
+    width: 80%;
+  }
+}
+
+@media (max-width: 450px) {
+  #nav ul.active {
+    width: 100%;
+  }
+  #nav ul.active li {
+    margin-left: 40px;
+  }
+  .logo i {
+    display: none;
+  }
+}
