@@ -1,5 +1,5 @@
 #quiz-container {
-    width: 90%;
+    width: 80%;
     max-width: 700px;
     margin: 40px auto;
     background-color: #0a0a1a;
@@ -132,3 +132,4 @@
     color: #4de2ff;
     text-align: center;
 }
+
